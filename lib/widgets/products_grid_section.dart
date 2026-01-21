@@ -1,4 +1,4 @@
-import 'package:credpal_shop/constants/app_colors.dart';
+import 'package:PayLater/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 import '../models/product.dart';
 import 'product_card.dart';

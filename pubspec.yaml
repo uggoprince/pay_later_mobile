@@ -1,5 +1,5 @@
-name: credpal_shop
-description: CredPal Pay Later Shopping App - A Flutter UI implementation for CredPal technical assessment.
+name: PayLater
+description: CredPal Pay Later Shopping App.
 publish_to: 'none'
 version: 1.0.0+1
 
