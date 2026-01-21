@@ -3,6 +3,7 @@ import '../constants/app_colors.dart';
 import '../widgets/header_section.dart';
 import '../widgets/custom_search_bar.dart';
 import '../widgets/products_grid_section.dart';
+import '../widgets/featured_merchants_section.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -22,7 +23,11 @@ class HomeScreen extends StatelessWidget {
 
             // Products grid
             const SizedBox(height: 4),
-            const ProductsGridSection(),        
+            const ProductsGridSection(),
+
+            // Featured merchants section
+            const SizedBox(height: 24),
+            const FeaturedMerchantsSection(),       
             
             // Bottom padding for safe area
             SizedBox(height: MediaQuery.of(context).padding.bottom + 20),

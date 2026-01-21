@@ -16,7 +16,7 @@ class ProductsGridSection extends StatelessWidget {
         child: Column(
           children: [
             _buildHorizontalRow(products),
-            const SizedBox(height: 16),
+            const SizedBox(height: 28),
             _buildHorizontalRow(products),
           ],
         ),
@@ -33,7 +33,7 @@ class ProductsGridSection extends StatelessWidget {
         itemBuilder: (context, index) {
           return Padding(
             padding: EdgeInsets.only(
-              right: index == products.length - 1 ? 0 : 16,
+              right: index == products.length - 1 ? 0 : 28,
             ),
             child: SizedBox(
               width: 181, // 👈 card width
