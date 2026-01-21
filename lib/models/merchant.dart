@@ -35,7 +35,7 @@ class Merchant {
       case MerchantStatus.busy:
         return AppColors.badgeOrange;
       case MerchantStatus.offline:
-        return AppColors.badgeRed;
+        return AppColors.badgeGray;
     }
   }
 }

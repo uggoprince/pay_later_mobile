@@ -7,27 +7,27 @@ class AppStyles {
   // Header styles
   static const TextStyle headerTitle = TextStyle(
     fontSize: 28,
-    fontWeight: FontWeight.w700,
+    fontWeight: FontWeight.w800,
     color: AppColors.textPrimary,
     height: 1.2,
   );
 
   static const TextStyle shoppingLimit = TextStyle(
     fontSize: 12,
-    fontWeight: FontWeight.w400,
-    color: AppColors.textSecondary,
+    fontWeight: FontWeight.w500,
+    color: Color(0xFF20294A),
   );
 
   static const TextStyle shoppingLimitValue = TextStyle(
     fontSize: 12,
-    fontWeight: FontWeight.w600,
-    color: AppColors.textPrimary,
+    fontWeight: FontWeight.w500,
+    color: Color(0xFF20294A),
   );
 
   // Button styles
   static const TextStyle buttonText = TextStyle(
     fontSize: 14,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w700,
     color: AppColors.buttonText,
   );
 

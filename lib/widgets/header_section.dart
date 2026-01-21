@@ -32,7 +32,7 @@ class HeaderSection extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         const Flexible(
                           child: Text(
@@ -40,13 +40,17 @@ class HeaderSection extends StatelessWidget {
                             style: AppStyles.headerTitle,
                           ),
                         ),
-                        const SizedBox(width: 4),
+                        const SizedBox(width: 6),
                         Container(
-                          margin: const EdgeInsets.only(bottom: 0),
+                          margin: const EdgeInsets.only(bottom: 4),
+                          decoration: BoxDecoration(
+                            color: AppColors.primary.withValues(alpha: 0.7),
+                            shape: BoxShape.circle,
+                          ),
                           child: Icon(
-                            Icons.info_outline,
-                            size: 18,
-                            color: AppColors.primary.withOpacity(0.7),
+                            Icons.info_rounded,
+                            size: 24,
+                            color: Colors.white,
                           ),
                         ),
                       ],

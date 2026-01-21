@@ -72,7 +72,7 @@ class ProductData {
       originalPrice: 515000,
       storeName: 'iMate Stores',
       storeLogoUrl: 'imatestores',
-      badgeText: null,
+      badgeText: "iMate",
     ),
   ];
 }

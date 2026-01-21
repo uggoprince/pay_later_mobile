@@ -34,7 +34,7 @@ class ProductCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
           boxShadow: [
             BoxShadow(
-              color: AppColors.shadow.withOpacity(0.05),
+              color: AppColors.shadow.withValues(alpha: 0.05),
               blurRadius: 10,
               offset: const Offset(0, 2),
             ),
@@ -48,11 +48,11 @@ class ProductCard extends StatelessWidget {
             children: [
               // Store logo/name
               // _buildStoreHeader(),
-              const SizedBox(height: 8),
+              // const SizedBox(height: 8),
 
               // Product image
               _buildProductImage(),
-              const SizedBox(height: 8),
+              const SizedBox(height: 12),
 
               // Product name
               Text(
@@ -61,7 +61,7 @@ class ProductCard extends StatelessWidget {
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),
-              const SizedBox(height: 6),
+              const SizedBox(height: 12),
 
               // Prices
               Row(
@@ -70,7 +70,7 @@ class ProductCard extends StatelessWidget {
                     formatPrice(product.price),
                     style: AppStyles.productPrice,
                   ),
-                  const SizedBox(width: 8),
+                  const SizedBox(width: 12),
                   if (product.hasDiscount)
                     Text(
                       formatOriginalPrice(product.originalPrice),
@@ -155,8 +155,8 @@ class ProductCard extends StatelessWidget {
           // Spherical overlay with customizable child (text or image)
           if (product.badgeText != null && product.badgeText!.isNotEmpty)
             Positioned(
-              left: 8,
-              top: 8,
+              left: 0,
+              top: 0,
               child: _buildCircleOverlay(
                 child: Text(
                   product.badgeText!,
@@ -183,7 +183,7 @@ class ProductCard extends StatelessWidget {
         shape: BoxShape.circle,
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.08),
+            color: Colors.black.withValues(alpha: 0.08),
             blurRadius: 10,
           ),
         ],

@@ -44,7 +44,7 @@ class CustomSearchBar extends StatelessWidget {
                     hintStyle: AppStyles.searchHint,
                     prefixIcon: Icon(
                       Icons.search,
-                      color: AppColors.searchHint.withOpacity(0.9),
+                      color: AppColors.searchHint.withValues(alpha: 0.9),
                       size: 22,
                     ),
                     // Removed contentPadding for even padding

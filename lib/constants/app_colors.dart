@@ -17,7 +17,7 @@ class AppColors {
   static const Color cardBackground = Color(0xFFFAFAFC);
   
   // Text colors
-  static const Color textPrimary = Color(0xFF1A1A2E);
+  static const Color textPrimary = Color(0xFF1A1A1A);
   static const Color textSecondary = Color(0xFF6B7280);
   static const Color textMuted = Color(0xFF9CA3AF);
   
@@ -30,6 +30,7 @@ class AppColors {
   static const Color badgeGreen = Color(0xFF00D26A);
   static const Color badgeRed = Color(0xFFFF4757);
   static const Color badgeOrange = Color(0xFFFF9F43);
+  static const Color badgeGray = Color(0xFFB0B0B0);
   
   // Merchant background colors
   static const Color justrite = Color(0xFF1A237E);
