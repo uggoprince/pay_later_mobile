@@ -47,16 +47,17 @@ class AppStyles {
   );
 
   static const TextStyle productPrice = TextStyle(
-    fontSize: 16,
-    fontWeight: FontWeight.w700,
-    color: AppColors.priceRed,
+    fontSize: 14,
+    fontWeight: FontWeight.w800,
+    color: AppColors.priceBlue,
   );
 
   static const TextStyle productOriginalPrice = TextStyle(
     fontSize: 12,
-    fontWeight: FontWeight.w400,
+    fontWeight: FontWeight.w500,
     color: AppColors.priceOriginal,
     decoration: TextDecoration.lineThrough,
+    decorationColor: AppColors.priceOriginal, // Set strikethrough color
   );
 
   // Section title

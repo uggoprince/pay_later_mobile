@@ -22,6 +22,7 @@ class AppColors {
   static const Color textMuted = Color(0xFF9CA3AF);
   
   // Price colors
+  static const Color priceBlue = Color(0xFF274FED);
   static const Color priceRed = Color(0xFFE53935);
   static const Color priceOriginal = Color(0xFF9CA3AF);
   
